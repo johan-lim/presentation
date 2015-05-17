@@ -4,7 +4,7 @@ presentation = require('./presentation');
 
 describe('Print hello world', function (done) {
     it('should print hello world', function (done) {
-        expect(presentation.print_hello()).to.eql('Hello world!');
+        expect(presentation.print_hello()).to.eql('hello world!');
         done();
     });
 });
