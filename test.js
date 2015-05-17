@@ -2,9 +2,9 @@ assert = require('assert'),
 expect = require('expect.js');
 presentation = require('./presentation');
 
-describe('Print hello world', function (done) {
-    it('should print hello world', function (done) {
-        expect(presentation.print_hello()).to.eql('hello world!');
+describe('Print Hello world', function (done) {
+    it('should print Hello world', function (done) {
+        expect(presentation.print_hello()).to.eql('Hello world!');
         done();
     });
 });

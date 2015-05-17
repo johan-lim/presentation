@@ -3,7 +3,7 @@ module.exports.print_hello = function (callback) {
 }
 module.exports.count_to_ten = function (callback) {
 	var i = 0;
-	while (i<10) i++;
+	while (i<9) i++;
 	return i;
 }
 
