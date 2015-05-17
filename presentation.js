@@ -6,3 +6,5 @@ module.exports.count_to_ten = function (callback) {
 	while (i<10) i++;
 	return i;
 }
+
+console.log("alles ist gut!");
